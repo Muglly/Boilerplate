@@ -8,12 +8,10 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Boilerplate - React</title>
-        <meta
-          name="google-site-verification"
-          content="8kDtWUmUQEh7QXoj_shRaxcgYAVpHs_YQ7TeniN0kmI"
-        />
+        <link rel="manifest" href="/manifest.json" />
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <meta name="theme-color" content="#06092B" />
         <meta
           name="description"
           content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
