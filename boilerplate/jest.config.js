@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true,
@@ -6,3 +6,5 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   // modulePaths: ['<rootDir>/src/'],
 };
+
+module.exports = config;
