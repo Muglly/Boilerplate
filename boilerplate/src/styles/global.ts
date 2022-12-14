@@ -7,6 +7,10 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    html, body, #__next {
+        height: 100%;
+    }
+
     html {
         font-size: 62.5%;
     }
