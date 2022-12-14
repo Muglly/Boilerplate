@@ -1926,6 +1926,7 @@ __metadata:
     eslint-plugin-react-hooks: ^4.6.0
     jest: ^29.3.1
     jest-environment-jsdom: ^29.3.1
+    jest-styled-components: ^7.1.1
     next: 13.0.6
     prettier: 2.8.1
     react: 18.2.0
@@ -4370,6 +4371,17 @@ eslint@latest:
     pretty-format: ^29.3.1
     semver: ^7.3.5
   checksum: d7d0077935e78c353c828be78ccb092e12ba7622cb0577f21641fadd728ae63a7c1f4a0d8113bfb38db3453a64bfa232fb1cdeefe0e2b48c52ef4065b0ab75ae
+  languageName: node
+  linkType: hard
+
+"jest-styled-components@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "jest-styled-components@npm:7.1.1"
+  dependencies:
+    "@adobe/css-tools": ^4.0.1
+  peerDependencies:
+    styled-components: ">= 5"
+  checksum: 1376d1211855c459e59e6b030af7294519cd2dd78169a2cb0df185ff4390fff417ab51be3dd520f1e975d2f391f50ff266e803c168ff9f03f3ff7ebbb823d2d7
   languageName: node
   linkType: hard
 
