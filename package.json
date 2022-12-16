@@ -11,9 +11,15 @@
     "test:watch": "yarn test --watch",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*": [
-      "yarn lint --fix"
+      "yarn lint --fix",
+      "yarn test --findRelatedTest --bail"
     ]
   },
   "dependencies": {
