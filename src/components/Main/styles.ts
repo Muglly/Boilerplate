@@ -13,6 +13,11 @@ export const Wrapper = styled.main`
   padding: 3rem;
 `;
 
+export const Logo = styled.img`
+  width: 32rem;
+  margin-bottom: 2rem;
+`;
+
 export const Title = styled.h1`
   font-size: 2.5rem;
 `;

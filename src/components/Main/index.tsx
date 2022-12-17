@@ -3,9 +3,10 @@ import * as S from './styles';
 export default function Main() {
   return (
     <S.Wrapper>
-      <S.Title>NextJS - Boilerplate</S.Title>
+      <S.Logo src="/img/nextjs-logo.svg" alt="Imagem escrito NextJS" />
+      <S.Title>Next.js - Boilerplate</S.Title>
       <S.Description>
-        ReactJS, NextJS, TypeScript, Styled Components
+        React.js, Next.js, TypeScript, Styled Components
       </S.Description>
       <S.Illustration
         src="/img/hero-illustration.svg"
