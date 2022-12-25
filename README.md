@@ -19,7 +19,13 @@
 
 ## 🚀 Como rodar o projeto
 
-### Clonando o repositório
+### Ininicar como CLI (Recomendada) ou Clonando o repositório
+
+```bash
+# run project create-app-next cli
+$ yarn create next-app -e https://github.com/Muglly/Boilerplate
+```
+<br>
 
 ```bash
 # Clone este repositório
